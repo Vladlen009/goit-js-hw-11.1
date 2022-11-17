@@ -1,9 +1,9 @@
-import fetchImages from './fetch-images';
+import {fetchImages} from './fetch-images';
 import cardTemplate from '../templates/card-template.hbs';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import SimpleLightbox from 'simplelightbox';
+import {SimpleLightbox} from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import throttle from 'lodash.throttle';
+// import throttle from 'lodash.throttle';
 
 const { searchForm, gallery, loadMoreBtn, endCollectionText } = {
   searchForm: document.querySelector('.search-form'),
