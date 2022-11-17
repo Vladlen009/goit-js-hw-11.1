@@ -1,2 +1,3 @@
 import './sass/main.scss';
-import './js/search-images/index';
+import './js/search-images/index'
+
